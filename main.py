@@ -5,7 +5,7 @@ from passwords.policies import BasicPolicy, MinLengthPolicy, NoSequentialPolicy
 
 if __name__ == "__main__":
     gen = PasswordGenerator(
-        policies=[BasicPolicy(), MinLengthPolicy(14), NoSequentialPolicy(3)]
+        policies=[BasicPolicy(), MinLengthPolicy(), NoSequentialPolicy()]
     )
     print("Generated:", gen.generate(length=16, unique_chars=True))
 

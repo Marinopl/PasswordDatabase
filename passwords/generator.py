@@ -124,7 +124,7 @@ class PasswordGenerator:
         self,
         length: int,
         unique_chars: bool = True,
-        max_tries: int = 10_000,
+        max_tries: int = 10000,
         shuffle_final: bool = True,
     ) -> str:
         if length < self.length_min:

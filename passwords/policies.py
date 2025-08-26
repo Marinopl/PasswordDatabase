@@ -27,8 +27,8 @@ class BasicPolicy:
     
 @dataclass(frozen=True)
 class MinLengthPolicy:
-    """ Política de tamanho mínimo para a senha."""
-    min_len: int = 12
+    """ Política de tamanho mínimo para a senha. """
+    min_len: int = 10
     def validate(self, pw: str) -> bool:
         return len(pw) >= self.min_len
     
