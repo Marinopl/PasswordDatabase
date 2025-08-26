@@ -36,7 +36,8 @@ PasswordDatabase/
 │
 ├── main.py # Exemplos de uso e aplicabilidade
 ├── OOP_study.py # Base dos estudos antes de modularizar
-└── original_code.py # Código original sem POO e sem Vibe Coding (ponto de partida)
+├── original_code.py # Código original sem POO e sem Vibe Coding (ponto de partida)
+├── database.py # Utilização da biblioteca Pandas para implementação de senhas em banco de dados fictíticos.
 ```
 
 * contracts.py: protocola as validações necessárias.
