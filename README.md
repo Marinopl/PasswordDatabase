@@ -1,6 +1,6 @@
-# PasswordDatabase - Estudos de Programação Orientada a Objetos
+# PasswordDatabase - Estudos de Programação Orientada a Objetos e Pandas
 
-Este repositório foi desenvolvido exclusivamente para estudos de lógica de programação, testando o uso de classes (POO) em Python. O Projeto explora conceitos classes estáticas, protocolos, encapsulamento com @Property e extensibilidade.
+Este repositório foi desenvolvido exclusivamente para estudos de lógica de programação, testando o uso de classes (POO) e Dataframes em Python. O Projeto explora conceitos classes estáticas, protocolos, encapsulamento com @Property e extensibilidade.
 
 > Projeto feito no estilo Vibe Coding utilizando o CHatGPT 5 como ferramenta de aprendizado interativo.
 
@@ -8,6 +8,7 @@ Este repositório foi desenvolvido exclusivamente para estudos de lógica de pro
 - Praticar conceitos de POO em Python de forma lógica, entendendo as aplicações de classes e objetos;
 - Criar um gerador de senhas seguro, modular e extensível;
 - Testar contratos com Protocol, dataclasses, encapsulamento via @Property e métodos estatícos;
+- Atribuir Dataframes fictícios para explorar a conexão com o gerador de senhas.
 
 ---
 
@@ -24,6 +25,7 @@ Este repositório foi desenvolvido exclusivamente para estudos de lógica de pro
 ---
 
 ## Estrutura do Projeto
+```
 PasswordDatabase/
 │
 ├── passwords/
@@ -35,6 +37,7 @@ PasswordDatabase/
 ├── main.py # Exemplos de uso e aplicabilidade
 ├── OOP_study.py # Base dos estudos antes de modularizar
 └── original_code.py # Código original sem POO e sem Vibe Coding (ponto de partida)
+```
 
 * contracts.py: protocola as validações necessárias.
 * policies.py: garante as políticas de senha a ser gerada (passível a extensão)
@@ -47,8 +50,7 @@ PasswordDatabase/
 ---
 
 ## Próximos Passos
-- Estudar como este gerador de senhas pode ser implementado em um banco de dados local utilizando PostgreSQL.
-- Criar exemplos fictícios de armazenamento e consulta.
+- Estudar como este gerador de senhas pode ser implementado em um Dataframe do Pandas, utilizando usuários fictícios.
 
 > **Importante:** Este projeto é apenas para estudo. Não foi testado nem validade para uso em sistemas de segurança.
 
@@ -63,4 +65,4 @@ PasswordDatabase/
 ---
 
 ## Como Executar
-python -m PasswordDatabase.main -> exemplos de uso
+python -m PasswordDatabase.main
